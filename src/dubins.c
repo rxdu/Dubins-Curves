@@ -19,11 +19,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 #ifdef WIN32
 #define _USE_MATH_DEFINES
 #endif
+
+#include "dubins/dubins.h"
 #include <math.h>
-#include "dubins.h"
 
 #define EPSILON (10e-10)
 

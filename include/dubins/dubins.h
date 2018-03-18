@@ -19,6 +19,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifndef DUBINS_H
 #define DUBINS_H
 
@@ -168,3 +173,6 @@ int dubins_extract_subpath(DubinsPath* path, double t, DubinsPath* newpath);
 
 #endif /* DUBINS_H */
 
+#ifdef __cplusplus
+}
+#endif
